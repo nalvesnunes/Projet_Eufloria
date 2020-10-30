@@ -1,0 +1,204 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 25px;
+}
+
+header {
+    background-image: url("../Image/header.jpg");
+    background-size: cover;
+}
+
+#texteHeader {
+    font-size: 20px;
+}
+
+.maitreMot {
+    font-size: 35px;
+}
+
+ul {
+    list-style-type: none;
+    z-index: 2;
+    height: 100%;
+    font-size: 30px;
+}
+
+
+/* Css pour la banière sous le header */
+
+.colorOrange {
+    background-color: #E38A56;
+}
+
+.potFleur img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    right: 10%;
+    box-shadow: 0px 4px 20px #272727;
+}
+
+.salopette img {
+    width: 45%;
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    box-shadow: 0px 4px 20px #272727;
+}
+
+
+/* Css pour la section partenaire et contact */
+
+.fondPartenaire {
+    background-image: url(../Image/Serre.jpg);
+    background-size: cover;
+}
+
+.nosPartenaires {
+    margin-top: 250px;
+}
+
+.textePartenaire {
+    font-size: 22px;
+}
+
+
+/* Css du footer */
+
+footer img {
+    width: 100%;
+}
+
+footer .tailleSup {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+.logo {
+    width: 15%;
+}
+
+
+/* Css page partenaire */
+
+.borderLarge {
+    border-radius: 40px;
+}
+
+.imgSlider {
+    width: 30%;
+    margin: auto;
+}
+
+
+/* Css page bouquet */
+
+.galerie img {
+    height: 600px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1200px) {
+    .imageSuperposer {
+        text-align: center;
+        display: flex;
+        z-index: 1;
+        flex-direction: column;
+    }
+    .potFleur img {
+        position: initial;
+        width: 80%;
+        height: auto;
+        margin-bottom: 30px;
+        box-shadow: 0px 4px 20px #272727;
+    }
+    .salopette img {
+        position: initial;
+        margin-bottom: 40px;
+        width: 80%;
+        box-shadow: 0px 4px 20px #272727;
+    }
+    .galerie img {
+        height: 500px;
+    }
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .galerie img {
+        height: 400px;
+    }
+    iframe {
+        width: 325px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .maitreMot {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px !important;
+    }
+    .tailleSup {
+        font-size: 22px !important;
+    }
+    .galerie img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    iframe {
+        width: 250px;
+        height: 100px;
+    }
+    h1 {
+        font-size: 25px !important;
+    }
+    header img {
+        width: 50%;
+    }
+    ul {
+        font-size: 16px;
+    }
+}

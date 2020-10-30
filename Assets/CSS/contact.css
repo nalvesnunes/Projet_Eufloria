@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+
+/*Bandeau contactez nous*/
+
+.jumbotron {
+    background-color: #E38A56;
+    text-align: center;
+}
+
+
+/*ajustement MAP*/
+
+.card-img-top {
+    height: 285px;
+    width: 100%;
+}
+
+
+/*ajustement des coordonnées*/
+
+.card p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+/*MAP*/
+
+.center-block {
+    text-align: center;
+}
